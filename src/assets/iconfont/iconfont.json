@@ -1,0 +1,16 @@
+{
+  "id": "1429607",
+  "name": "掌上蜘蛛",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9509972",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta content="telephone=no" name="format-detection" viewport-fit='cover' />
+  <title>拼团商城</title>
+  <!-- <script type="text/javascript" src="https://cdn.staticfile.org/vConsole/3.3.0/vconsole.min.js"></script>
+  <script type="text/javascript">
+    var vConsole = new VConsole();
+  </script> -->
+  <script>
+     var bizId = 193
+    // // 线下商城--默认为false
+    // var isMallUnderShop = true
+    // 线上商城--默认为true
+    // var isMallShop = true
+    // var aliPay = 1
+    var config = {
+      pcWebDebug: true,
+    }
+  </script>
+  <script src="../script/biz.js"></script>
+  <script>
+    window.onload = function () {
+      // 要在onload事件中再执行以下语句。否则，在vivo nex等手机的移动网络下开启app时document.documentElement.clientWidth有时为0，
+      var htmlTag = document.getElementsByTagName('html')[0]
+      htmlTag.style.fontSize = (document.documentElement.clientWidth / 7.5) + 'px'
+    }
+  </script>
+</head>
+
+<body>
+  <div id="app">
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
